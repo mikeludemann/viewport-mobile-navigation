@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Viewport Mobile Navigation</title>
+	<link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+	<div class="mobile--nav" data-mobile-nav>
+		<div class="mobile--nav--overlay" data-mobile-nav-overlay></div>
+		<div class="mobile--nav--inner">
+			<div class="mobile--nav--trigger" data-mobile-nav-trigger>
+				<div class="mobile--nav--trigger--inner"></div>
+			</div>
+			<ul class="mobile--nav--nav" data-mobile-nav-list>
+				<li class="mobile--nav--item" data-mobile-nav-item="1">
+					<div class="mobile--nav--item--title">
+						<a href="#">About Us</a>
+					</div>
+				</li>
+				<li class="mobile--nav--item" data-mobile-nav-item="2">
+					<div class="mobile--nav--item--title">
+						<a href="#">Products</a>
+					</div>
+				</li>
+				<li class="mobile--nav--item" data-mobile-nav-item="3">
+					<div class="mobile--nav--item--title">
+						<a href="#">Services</a>
+					</div>
+				</li>
+				<li class="mobile--nav--item" data-mobile-nav-item="4">
+					<div class="mobile--nav--item--title">
+						<a href="#">Prices</a>
+					</div>
+				</li>
+				<li class="mobile--nav--item" data-mobile-nav-item="5">
+					<div class="mobile--nav--item--title">
+						<a href="#">Contact</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<header class="header" data-header>
+		<div class="header--inner" data-header-nav>
+			<div class="logo">
+				<img src="https://imageog.flaticon.com/icons/png/512/44/44386.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF" alt="Earth" style="width: 50px; height: 25px;">
+			</div>
+			<nav class="header--nav" data-nav>
+				<div class="header--nav--item" data-nav-item="1">
+					<a href="#">About</a>
+				</div>
+				<div class="header--nav--item" data-nav-item="2">
+					<a href="#">Products</a>
+				</div>
+				<div class="header--nav--item" data-nav-item="3">
+					<a href="#">Services</a>
+				</div>
+				<div class="header--nav--item" data-nav-item="4">
+					<a href="#">Work</a>
+				</div>
+				<div class="header--nav--item" data-nav-item="5">
+					<a href="#">Contact</a>
+				</div>
+			</nav>
+			<button class="mobile--nav--trigger" data-mobile-nav-trigger>
+				<div class="mobile--nav--trigger--inner"></div>
+			</button>
+		</div>
+	</header>
+	<div class="container">
+		<div class="title--headline">Welcome Stranger</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/resize-observer-polyfill@1.5.1/dist/ResizeObserver.min.js"></script>
+	<script src="./src/script/script.js"></script>
+</body>
+</html>
